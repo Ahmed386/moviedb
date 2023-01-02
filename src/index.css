@@ -1,0 +1,37 @@
+body{
+  background-color: #272B30;
+  color: white;
+}
+nav{
+  box-shadow: 0px 1px 5px 0px black;
+}
+a , a:hover {
+  text-decoration: none;
+  color: white;
+}
+.logout:hover{
+  cursor: pointer;
+}
+.pagi{
+  width: 15%;
+}
+.item{
+  color: white;
+  /* border-radius: 50%; */
+}
+.item:hover{
+  color: black !important ;
+  background-color: white;
+  /* border-radius: 50%; */
+} 
+
+.offline{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+.shadow{
+  box-shadow: 1px 1px 1px 1px black;
+}
+
