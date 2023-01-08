@@ -58,10 +58,10 @@ export default function Register() {
     e.preventDefault()
 
     const schema = Joi.object({
-      first_name:Joi.string().alphanum().min(3).max(8).required(),
-      last_name: Joi.string().alphanum().min(3).max(8).required(),
+      first_name:Joi.string().alphanum().min(3).max(12).required(),
+      last_name: Joi.string().alphanum().min(3).max(12).required(),
       email:Joi.string().email({ minDomainSegments: 2, tlds: { allow: ['com', 'net'] } }).required(),
-      age:Joi.number().min(18).max(80).required(),
+      age:Joi.number().min(13).max(100).required(),
       password:Joi.string().pattern(/^[a-z0-9]{7,12}$/i).required()
     })
 
