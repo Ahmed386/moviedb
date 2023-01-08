@@ -122,7 +122,7 @@ export default function Register() {
        {apiMessage.length ==0? '':<div className='alert alert-danger'>{apiMessage}</div>}
 
         <form onSubmit={submitUser}  >
-            <h2 className='mb-4 text-center'>Create a new account</h2>
+            <h2 className='mb-4 text-center'>Create  new account</h2>
 
             <label className='mb-1' htmlFor="first_name">first_name</label>
             <input onChange={getUSer} className='form-control mb-3 bg-dark border-0 text-white' id='first_name' type="text" placeholder='first_name' />
