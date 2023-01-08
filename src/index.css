@@ -24,6 +24,9 @@ a , a:hover {
   background-color: white;
   /* border-radius: 50%; */
 } 
+.wraper {
+  width:50%;
+}
 
 .offline{
   position: fixed;
@@ -35,7 +38,7 @@ a , a:hover {
   box-shadow: 1px 1px 1px 1px black;
 }
 @media only screen and (max-width: 600px) {
-  input{padding: 30px;}
+  .wraper{width: 90%;}
 }
 
 
