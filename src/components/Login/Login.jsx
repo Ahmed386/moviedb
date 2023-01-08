@@ -34,7 +34,7 @@ export default function Login({loginVerfication}) {
     const schema = Joi.object({
       
       email:Joi.string().email({ minDomainSegments: 2, tlds: { allow: ['com', 'net'] } }).required(),
-      password:Joi.string().pattern(/^[a-z]{7,12}$/i).required()
+      password:Joi.string().pattern(/^[a-z0-9]{7,12}$/i).required()
     })
 
     let joiResponse =schema.validate(user,{abortEarly:false})
