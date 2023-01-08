@@ -39,7 +39,7 @@ export default function Toptvs2() {
          <div className="col-md-4">
             <div className={home.title}>
               <h3>
-                Trending TvSeries to Watch now
+                Top-Rated TvSeries to Watch now
 
               </h3>
               <p>Lorem ipsum dolor sit amet, consectetur.</p>
