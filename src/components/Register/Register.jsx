@@ -105,7 +105,7 @@ export default function Register() {
 
 
   return <>
-    <div className="w-50 m-auto p-4">
+    <div className="wraper m-auto p-4">
 
 
     <Helmet>
