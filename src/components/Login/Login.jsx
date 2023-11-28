@@ -51,8 +51,8 @@ export default function Login({loginVerfication}) {
     }
 
   }
-  async function sendUSer() {
-    let {data} = await axios.post('https://route-movies-api.vercel.app/signin' ,user)
+  async function sendUserToApi() {
+    let {data} = await axios.post('https://movies-api.routemisr.com/signin' ,user)
     
     if (data.message == 'success') {
         //userdata from => token
