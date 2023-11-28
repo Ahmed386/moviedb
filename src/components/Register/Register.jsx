@@ -84,7 +84,7 @@ export default function Register() {
 
   }
   async function sendUSer() {
-    let {data} = await axios.post('https://route-movies-api.vercel.app/signup' ,user)
+    let {data} = await axios.post('https://movies-api.routemisr.com/signup' ,user)
     console.log(data);
 
     setclickedBtn(false)
