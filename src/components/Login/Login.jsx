@@ -51,7 +51,7 @@ export default function Login({loginVerfication}) {
     }
 
   }
-  async function sendUserToApi() {
+  async function sendUSer() {
     let {data} = await axios.post('https://movies-api.routemisr.com/signin' ,user)
     
     if (data.message == 'success') {
